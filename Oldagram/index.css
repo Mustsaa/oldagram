@@ -1,0 +1,107 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    background-color: #fff;
+}
+
+.olda-logo {
+    width: 100px;
+}
+
+.per-avatar {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.post {
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.avatar-van {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.post-user-info {
+    margin-left: 10px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.location {
+    display: block;
+    color: gray;
+}
+
+.post-image img {
+    width: 100%;
+}
+
+.post-footer {
+    padding: 10px;
+}
+
+.post-actions {
+    display: flex;
+    justify-content: start;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.icon {
+    width: 24px;
+    cursor: pointer;
+    filter: grayscale(100%);
+   transition: filter 0.3s, transform 0.3s;
+}
+
+.icon:hover {
+    color: grayscale(0%);
+   transform: scale(1.2);
+}
+
+.post-likes, .post-caption, .post-comments {
+    margin-bottom: 10px;
+}
+
+.post-caption .name, .comment .name {
+    font-weight: bold;
+}
+
+.comment {
+    display: block;
+}
+
+.comment .name {
+    margin-right: 5px;
+}
